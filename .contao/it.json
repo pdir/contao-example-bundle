@@ -1,0 +1,32 @@
+{
+  "title": "Titolo di esempio",
+  "description": "Descrizione di esempio",
+  "keywords": ["meta", "esempio", "parola chiave"],
+  "images": [
+    {
+      "title": "Icona di estensione",
+      "type": "icon",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/icon-it.png"
+      }
+    },
+    {
+      "title": "Schermo commerciale",
+      "type": "ad",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/icon-it.png"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "type": "ad",
+      "title": "Video promozionale",
+      "url": "https://example.org/it/ad"
+    }
+  ]
+}

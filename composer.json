@@ -1,0 +1,50 @@
+{
+  "name": "pdir/contao-example-bundle",
+  "type":"contao-bundle",
+  "description": "Example Bundle for Contao 4",
+  "keywords":["example","contao","bundle"],
+  "homepage": "https://www.example.com",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mathias Arzberger",
+      "homepage": "https://pdir.de",
+      "email" : "develop@pdir.de",
+      "role" : "Developer"
+    }
+  ],
+  "support" : {
+    "email" : "develop@pdir.de",
+    "issues" : "https://github.com/pdir/contao-example-bundle/issues",
+    "source" : "https://github.com/pdir/contao-example-bundle"
+  },
+  "require": {
+    "php": ">=7.1",
+    "contao/core-bundle": "^4.5"
+  },
+  "conflict": {
+    "contao/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pdir\\ContaoExampleBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Pdir\\ContaoExampleBundle\\ContaoManager\\Plugin",
+    "contao-manager-localization": {
+      "de": "https://raw.github.com/pdir/contao-example-bundle/.contao/de.json",
+      "it": "https://raw.github.com/pdir/contao-example-bundle/.contao/it.json"
+    }
+  }
+
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Beispiel Titel",
+  "description": "BEispiel Beschreibung",
+  "keywords": ["info", "beispiel", "stichwort"],
+  "images": [
+    {
+      "title": "Erweiterungssymbol",
+      "type": "icon",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/icon-de.png"
+      }
+    },
+    {
+      "title": "Werbegrafik",
+      "type": "ad",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/icon-de.png"
+      }
+    },
+    {
+      "title": "Screenshot 1",
+      "type": "screenshot",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/example-de.png"
+      }
+    },
+    {
+      "title": "Screenshot 2",
+      "type": "screenshot",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/example-de.png"
+      }
+    }
+  ],
+  "support": {
+    "email" : "develop@pdir.de",
+    "issues" : "https://example.com/de/pdir/contao-example-bundle/issues",
+    "forum": "https://example.com/forum/de/",
+    "wiki": "https://example.com/wiki/de/",
+    "irc": "irc://irc.freenode.org/beispiel",
+    "docs": "https://docs.example.com/de/",
+    "rss": "https://example.com/de/xml/rss2"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://example.org/de/article"
+    }
+  ],
+  "videos": [
+    {
+      "type": "ad",
+      "title": "Werbevideo",
+      "url": "https://example.org/de/ad"
+    },
+    {
+      "type": "install",
+      "title": "Installation",
+      "url": "https://example.org/de/video1"
+    },
+    {
+      "type": "config",
+      "title": "Einstellungen",
+      "url": "https://example.org/de/video2"
+    }
+  ]
+}

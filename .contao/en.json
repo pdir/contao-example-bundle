@@ -1,0 +1,75 @@
+{
+  "title": "Example Titel",
+  "description": "Example Description",
+  "keywords": ["meta", "example", "keyword"],
+  "images": [
+    {
+      "title": "Extension Icon",
+      "type": "icon",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/icon-en.png"
+      }
+    },
+    {
+      "title": "Commercial Screen",
+      "type": "ad",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/icon-en.png"
+      }
+    },
+    {
+      "title": "Extension Screenshot 1",
+      "type": "screenshot",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/example-en.png"
+      }
+    },
+    {
+      "title": "Extension Screenshot 2",
+      "type": "screenshot",
+      "media": {
+        "binaryEncoding": "base64",
+        "type": "image/png",
+        "url": "https://example.org/example-en.png"
+      }
+    }
+  ],
+  "support": {
+    "email" : "develop@pdir.de",
+    "issues" : "https://example.com/en/pdir/contao-example-bundle/issues",
+    "forum": "https://example.com/forum/en/",
+    "wiki": "https://example.com/wiki/en/",
+    "irc": "irc://irc.freenode.org/example",
+    "docs": "https://docs.example.com/en/",
+    "rss": "https://example.com/xml/rss2"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://example.org/en/article"
+    }
+  ],
+  "videos": [
+    {
+      "type": "ad",
+      "title": "Promotion video",
+      "url": "https://example.org/de/ad"
+    },
+    {
+      "type": "install",
+      "title": "Installation",
+      "url": "https://example.org/de/video1"
+    },
+    {
+      "type": "config",
+      "title": "Configuration",
+      "url": "https://example.org/de/video2"
+    }
+  ]
+}
