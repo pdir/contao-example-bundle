@@ -42,8 +42,8 @@
   "extra": {
     "contao-manager-plugin": "Pdir\\ContaoExampleBundle\\ContaoManager\\Plugin",
     "contao-manager-localization": {
-      "de": "https://raw.github.com/pdir/contao-example-bundle/.contao/de.json",
-      "it": "https://raw.github.com/pdir/contao-example-bundle/.contao/it.json"
+      "de": "https://raw.githubusercontent.com/pdir/contao-example-bundle/master/.contao/de.json",
+      "it": "https://raw.githubusercontent.com/pdir/contao-example-bundle/master/.contao/it.json"
     }
   }
 
